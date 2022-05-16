@@ -14,7 +14,7 @@ from DBactions import db_addAneki, db_addMeme, db_addWatchedAnek, db_addWatchedM
 adminMode = False
 addTextAnek = False
 addMeme = False
-bot = telebot.TeleBot('5351857985:AAEOVJyKimwQZzNEcuY3kW7MOcyXAiApT4Q')
+bot = telebot.TeleBot('TOKEN')
 conn = sqlite3.connect('D:\\TelegramBotPython\\db\\database.db', check_same_thread=False)
 cursor = conn.cursor()
 
